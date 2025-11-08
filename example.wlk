@@ -1,9 +1,12 @@
-object pepita {
-  var energy = 100
+class Personajes {
+  const fuerza
+  var inteligencia
+  var rol
+}
 
-  method energy() = energy
+class Orcos inherits Personajes {
 
-  method fly(minutes) {
-    energy = energy - minutes * 3
-  }
+}
+class Humanos inherits Personajes {
+  
 }
